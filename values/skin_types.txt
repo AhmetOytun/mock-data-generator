@@ -1,0 +1,20 @@
+Normal Skin
+Dry Skin
+Oily Skin
+Combination Skin
+Sensitive Skin
+Acne-Prone Skin
+Aging Skin
+Dehydrated Skin
+Hyperpigmented Skin
+Post-Inflammatory Hyperpigmentation (PIH) Skin
+Eczema-Prone Skin
+Rosacea-Prone Skin
+Psoriasis-Prone Skin
+Sun-Damaged Skin
+Mature Skin
+Reactive Skin
+Hypopigmented Skin (e.g., vitiligo)
+Keratosis Pilaris Skin
+Melasma-Prone Skin
+Seborrheic Dermatitis Skin
