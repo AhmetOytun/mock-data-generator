@@ -74,7 +74,6 @@ int main() {
     std::vector<std::string> skin_type = setVectorsFromFile(skin_type_file);
 
 
-    // Generate random data for 10 records
     for (int i = 0; i < 10000; ++i) {
         std::unordered_map<std::string, json> record;
 
@@ -92,14 +91,26 @@ int main() {
         record["Gluten Food Habits"] = getRandomValueFromVector(gluten);
         record["Baumann Skin Profile"] = getRandomValueFromVector(baumann_classification);
 
-        // Convert map to JSON object
         json jsonObject(record);
         
-        // Write JSON object to file in JSONL format
         outFile << jsonObject.dump() << "\n";
     }
 
+    /* closing files */
     outFile.close();
+    ages_file.close();
+    alcohol_consumption_file.close();
+    allergy_causing_ingredients_file.close();
+    allergy_causing_products_file.close();
+    baumann_classification_file.close();
+    cigarette_consumption_file.close();
+    gluten_file.close();
+    hydration_file.close();
+    locations_file.close();
+    products_used_file.close();
+    skin_problems_file.close();
+    skin_type_file.close();
+
     std::cout << "Data successfully written to data.jsonl" << std::endl;
     return 0;
 }
